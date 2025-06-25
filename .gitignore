@@ -52,3 +52,7 @@ application-my.yaml
 
 /yudao-ui-app/unpackage/
 **/.DS_Store
+
+# 忽略 yudao-server 下的 yaml 配置文件
+yudao-server/src/main/resources/*.yaml
+yudao-server/src/main/resources/*.yml
