@@ -56,3 +56,15 @@ application-my.yaml
 # 忽略 yudao-server 下的 yaml 配置文件
 yudao-server/src/main/resources/*.yaml
 yudao-server/src/main/resources/*.yml
+
+# 忽略领星api文档md格式目录
+领星api文档md格式/
+
+# 忽略 yudao-module-ak2db 模块
+yudao-module-ak2db/
+
+# 忽略领星sdk
+openapi-sdk-java/
+
+# 忽略vben前端模块（另一个仓库）
+yudao-ui-admin-vben/
